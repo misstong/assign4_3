@@ -1,0 +1,36 @@
+@media (min-width:768px) and (max-width: 991px){
+  #btn {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .nav-item{
+    text-align: center;
+  }
+  #navbarSupportedContent{
+    flex-basis: 100%;
+  }
+}
+#navbarSupportedContent ul{
+  background-color: #2fe;
+}
+#navbarSupportedContent li{
+  border: 1px solid #000;
+  width: 100%;
+}
+#pageheader{
+  padding: 0;
+}
+#pagebrand{
+  background-color: #b8cde2;
+  font-size: 1.9em;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+div h1,div h2{
+  text-align: center;
+}
+#chicken{
+  background-color: #3d2;
+  padding: 1px 2px 1px;
+}
